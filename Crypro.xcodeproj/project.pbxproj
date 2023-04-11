@@ -12,6 +12,9 @@
 		FA89CDAA29E5A12F00F09486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA89CDA929E5A12F00F09486 /* Preview Assets.xcassets */; };
 		FA89CDB129E5A29600F09486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA89CDB029E5A29600F09486 /* Assets.xcassets */; };
 		FA89CDB429E5A34100F09486 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89CDB329E5A34100F09486 /* Color.swift */; };
+		FA89CDBA29E5B80100F09486 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89CDB929E5B80100F09486 /* HomeView.swift */; };
+		FA89CDBE29E5BA0500F09486 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89CDBD29E5BA0500F09486 /* CircleButtonView.swift */; };
+		FA89CDC029E5BFAB00F09486 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89CDBF29E5BFAB00F09486 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		FA89CDA929E5A12F00F09486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA89CDB029E5A29600F09486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		FA89CDB329E5A34100F09486 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FA89CDB929E5B80100F09486 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA89CDBD29E5BA0500F09486 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		FA89CDBF29E5BFAB00F09486 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			children = (
 				FA89CDA229E5A12E00F09486 /* CryproApp.swift */,
 				FA89CDB229E5A31100F09486 /* Extensions */,
+				FA89CDB529E5B6FA00F09486 /* Core */,
 				FA89CDA429E5A12E00F09486 /* ContentView.swift */,
 				FA89CDB029E5A29600F09486 /* Assets.xcassets */,
 				FA89CDA829E5A12F00F09486 /* Preview Content */,
@@ -76,6 +83,56 @@
 				FA89CDB329E5A34100F09486 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA89CDB529E5B6FA00F09486 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA89CDBB29E5B9B200F09486 /* Components */,
+				FA89CDB629E5B7A500F09486 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FA89CDB629E5B7A500F09486 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA89CDB829E5B7C500F09486 /* ViewModels */,
+				FA89CDB729E5B7BF00F09486 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA89CDB729E5B7BF00F09486 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA89CDB929E5B80100F09486 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA89CDB829E5B7C500F09486 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA89CDBB29E5B9B200F09486 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA89CDBC29E5B9DC00F09486 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA89CDBC29E5B9DC00F09486 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				FA89CDBD29E5BA0500F09486 /* CircleButtonView.swift */,
+				FA89CDBF29E5BFAB00F09486 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA89CDA529E5A12E00F09486 /* ContentView.swift in Sources */,
+				FA89CDBA29E5B80100F09486 /* HomeView.swift in Sources */,
 				FA89CDA329E5A12E00F09486 /* CryproApp.swift in Sources */,
+				FA89CDBE29E5BA0500F09486 /* CircleButtonView.swift in Sources */,
 				FA89CDB429E5A34100F09486 /* Color.swift in Sources */,
+				FA89CDC029E5BFAB00F09486 /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +378,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
