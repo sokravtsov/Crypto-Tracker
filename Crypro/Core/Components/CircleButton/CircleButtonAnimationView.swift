@@ -2,7 +2,7 @@
 //  CircleButtonAnimationView.swift
 //  Crypro
 //
-//  Created by Екатерина Долгина on 12.04.2023.
+//  Created by Sergey Kravtsov on 12.04.2023.
 //
 
 import SwiftUI
