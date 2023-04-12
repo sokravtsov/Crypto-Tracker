@@ -19,6 +19,7 @@
 		FAF1F5A929E6C8F8000DAB4D /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F5A829E6C8F8000DAB4D /* CoinRowView.swift */; };
 		FAF1F5AB29E6C9BE000DAB4D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F5AA29E6C9BE000DAB4D /* PreviewProvider.swift */; };
 		FAF1F5AD29E6D593000DAB4D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F5AC29E6D593000DAB4D /* Double.swift */; };
+		FAF1F5AF29E6E490000DAB4D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F5AE29E6E490000DAB4D /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FAF1F5A829E6C8F8000DAB4D /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		FAF1F5AA29E6C9BE000DAB4D /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		FAF1F5AC29E6D593000DAB4D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		FAF1F5AE29E6E490000DAB4D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		FA89CDB829E5B7C500F09486 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FAF1F5AE29E6E490000DAB4D /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF1F5A929E6C8F8000DAB4D /* CoinRowView.swift in Sources */,
+				FAF1F5AF29E6E490000DAB4D /* HomeViewModel.swift in Sources */,
 				FA89CDA529E5A12E00F09486 /* ContentView.swift in Sources */,
 				FA89CDBA29E5B80100F09486 /* HomeView.swift in Sources */,
 				FA89CDA329E5A12E00F09486 /* CryproApp.swift in Sources */,
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crypro/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C4Q39777D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
@@ -395,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crypro/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C4Q39777D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
